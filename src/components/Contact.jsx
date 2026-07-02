@@ -57,16 +57,16 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative overflow-hidden py-16">
-      {/* Background image + soft ivory scrim + gold glow */}
-      <img src={STOCK.warmLiving} alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover" />
-      <div className="absolute inset-0 bg-gradient-to-br from-mist/95 via-mist/90 to-mist/80" />
+      {/* Furniture background image + soft ivory scrim + gold glow */}
+      <img src={STOCK.sofa} alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover" />
+      <div className="absolute inset-0 bg-gradient-to-br from-ink/85 via-ink/80 to-ink/70" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_85%_15%,rgba(201,162,39,0.14),transparent_45%)]" />
 
       <div className="relative mx-auto grid max-w-7xl gap-8 px-5 md:px-8 lg:grid-cols-2 lg:gap-10">
         {/* Left — reach us */}
         <Reveal>
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.3em] text-gold">Reach Us</p>
-          <h2 className="font-display text-4xl font-semibold text-ink md:text-5xl">Talk to our team</h2>
+          <h2 className="font-display text-4xl font-semibold text-white md:text-5xl">Talk to our team</h2>
 
           <div className="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-2">
             <InfoCard icon={I.phone} label="Call Us" value={CONTACT.phone} href={CONTACT.phoneHref} />
