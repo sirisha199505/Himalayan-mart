@@ -42,8 +42,8 @@ export default function Categories() {
                   <h3 className="font-display text-3xl font-semibold text-white">{cat.title}</h3>
                   <p className="mt-1 text-sm text-white/70">{cat.blurb}</p>
 
-                  {/* Item list slides up on hover */}
-                  <div className="mt-4 grid max-h-0 grid-cols-2 gap-x-4 gap-y-1.5 overflow-hidden opacity-0 transition-all duration-500 group-hover:max-h-52 group-hover:opacity-100">
+                  {/* Item list — always shown on mobile, slides up on hover on desktop */}
+                  <div className="mt-4 grid max-h-52 grid-cols-2 gap-x-4 gap-y-1.5 overflow-hidden opacity-100 transition-all duration-500 sm:max-h-0 sm:opacity-0 sm:group-hover:max-h-52 sm:group-hover:opacity-100">
                     {cat.items.map((it) => (
                       <span key={it} className="flex items-center gap-1.5 text-sm text-white/85">
                         <span className="h-1 w-1 rounded-full bg-gold" />
