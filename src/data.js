@@ -45,8 +45,14 @@ export const CONTACT = {
   phoneHref: 'tel:+918977392288',
   whatsapp: 'https://wa.me/918977392288',
   email: 'himalayanfurnituremart@gmail.com',
+  hours: 'Mon–Sun: 10:00 AM – 8:00 PM',
   address: 'H, 490/25, opp. Hotel City Diamond, Huda Colony, Asif Nagar, Hyderabad, Telangana 500028',
   mapsHref: 'https://maps.google.com/?q=Himalayan+Furniture+Mart+Huda+Colony+Asif+Nagar+Hyderabad',
+  locations: [
+    { city: 'Hyderabad (Flagship)', address: 'H, 490/25, opp. Hotel City Diamond, Huda Colony, Asif Nagar, Hyderabad, Telangana 500028' },
+    { city: 'Bengaluru', address: 'Experience Centre, Bengaluru, Karnataka' },
+    { city: 'Chennai', address: 'Experience Centre, Chennai, Tamil Nadu' },
+  ],
 }
 
 // ── Hero carousel slides ────────────────────────────────────────────────────
